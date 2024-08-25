@@ -16,10 +16,13 @@ This project demonstrates a neural network model built with Keras to classify ha
 
 **keras.utils.to_categorical:**  For converting class vectors to binary class matrices.
 # Model Overview
-Data Ingestion: Loads and preprocesses the MNIST dataset.
-Model Architecture: Sequential model with dense layers for classification.
-Training: Optimized using SGD and Adam, with checkpointing for performance tracking.
-Evaluation: Assesses the model's accuracy on the test set.
+**Data Ingestion:** Loads and preprocesses the MNIST dataset.
+
+**Model Architecture:** Sequential model with dense layers for classification.
+
+**Training:** Optimized using SGD and Adam, with checkpointing for performance tracking.
+
+**Evaluation:** Assesses the model's accuracy on the test set.
 # Setup and Execution
 Install Dependencies: Ensure you have the required packages installed.
 Run the Model: Execute the script to train and evaluate the model.
